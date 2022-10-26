@@ -1,0 +1,14 @@
+<div style="background-color: #dedede;margin: 5px;padding:5px;">
+    <h5 >
+     I am <ng-content select=".name"></ng-content>
+    </h5>
+    Guess my super power!
+    <p
+       [hidden]="data.hide">
+      <ng-content select=".superPower"></ng-content>
+    </p>
+    <br/>
+    <button class="info"
+       (click)="toggle(data)">Tell Me
+    </button>
+</div>
