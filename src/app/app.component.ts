@@ -4,12 +4,10 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers:[],
-  animations:[]
+  providers: [],
+  animations: [],
 })
 export class AppComponent {
-  constructor(){
-    
-  }
+  constructor() {}
   title = 'heroes App';
 }
